@@ -1,0 +1,18 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "repoMgr": {
+    "name": "repoMgr",
+    "connector": "couchbase3",
+    "cluster": {
+      "url": "couchbase://127.0.0.1",
+      "options": {}
+    },
+    "bucket": {
+      "name": "repo-mgr",
+      "password": ""
+    }
+  }
+}
